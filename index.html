@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figure</title>
+    <style>
+        /* Base Dark Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0b0f19;
+            color: #f3f4f6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 24px;
+        }
+
+        /* Logo Layout Framework */
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-img {
+            max-width: 140px;
+            height: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5)); 
+        }
+
+        /* Unofficial Project Disclaimer */
+        .disclaimer {
+            color: #6b7280;
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+
+        /* Card/Button Stack Layout */
+        .button-group {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        /* Anchor wrapper styling reset */
+        .nav-link {
+            text-decoration: none;
+            flex: 1;
+            min-width: 280px;
+            max-width: 380px;
+        }
+
+        /* Basic Static Card-Style Buttons */
+        .btn-card {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            padding: 30px 25px;
+            border-radius: 16px;
+            cursor: pointer;
+            text-align: left;
+            height: 100%;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Typography within the cards */
+        .btn-title {
+            color: #ffffff;
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .btn-description {
+            color: #9ca3af;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- Centered Logo -->
+            <div class="logo-container">
+                <img src="logo.png" alt="Figure Logo" class="logo-img">
+            </div>
+        </header>
+
+        <!-- Disclaimer Section -->
+        <div class="disclaimer">
+            <p>Note: this is an unofficial project</p>
+        </div>
+
+        <!-- Navigation Buttons Layout -->
+        <div class="button-group">
+            <!-- OS Card Button -->
+            <a href="/os/" class="nav-link">
+                <div class="btn-card">
+                    <div class="btn-title">OS</div>
+                    <div class="btn-description">Click here to go to Cine-OS</div>
+                </div>
+            </a>
+
+            <!-- Cloud Card Button -->
+            <a href="/cloud/" class="nav-link">
+                <div class="btn-card">
+                    <div class="btn-title">Cloud (Might be broken)</div>
+                    <div class="btn-description">Click here to go to Cine-cloud</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
