@@ -26,7 +26,7 @@
 
         .container {
             width: 100%;
-            max-width: 800px;
+            max-width: 850px; /* Expanded slightly to look cleaner with more cards */
             text-align: center;
         }
 
@@ -59,7 +59,7 @@
         /* Card/Button Stack Layout */
         .button-group {
             display: flex;
-            gap: 25px;
+            gap: 20px;
             justify-content: center;
             flex-wrap: wrap;
             width: 100%;
@@ -69,7 +69,7 @@
         .nav-link {
             text-decoration: none;
             flex: 1;
-            min-width: 280px;
+            min-width: 250px;
             max-width: 380px;
         }
 
@@ -77,7 +77,7 @@
         .btn-card {
             background-color: #1e293b;
             border: 1px solid #334155;
-            padding: 30px 25px;
+            padding: 25px 20px;
             border-radius: 16px;
             cursor: pointer;
             text-align: left;
@@ -88,15 +88,15 @@
         /* Typography within the cards */
         .btn-title {
             color: #ffffff;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: 700;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .btn-description {
             color: #9ca3af;
-            font-size: 0.95rem;
-            line-height: 1.5;
+            font-size: 0.9rem;
+            line-height: 1.4;
         }
     </style>
 </head>
@@ -130,6 +130,22 @@
                 <div class="btn-card">
                     <div class="btn-title">Cloud (Might be broken)</div>
                     <div class="btn-description">Click here to go to Cine-cloud</div>
+                </div>
+            </a>
+
+            <!-- Lane-OS Card Button -->
+            <a href="/lane-os/" class="nav-link">
+                <div class="btn-card">
+                    <div class="btn-title">Lane-OS (Broken)</div>
+                    <div class="btn-description">Click here to go to Lane-OS</div>
+                </div>
+            </a>
+
+            <!-- Link Creator Card Button -->
+            <a href="/link-creator/" class="nav-link">
+                <div class="btn-card">
+                    <div class="btn-title">Link Creator</div>
+                    <div class="btn-description">Click here to go to Link Creator</div>
                 </div>
             </a>
         </div>
