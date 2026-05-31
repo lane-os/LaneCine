@@ -1,2 +1,2 @@
 Lane-OS:
-https://github.com/lane-os/Lane-OS
+https://github.com/lane-os/LaneOS
