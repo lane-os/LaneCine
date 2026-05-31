@@ -1,2 +1,2 @@
 Link-creator:
-https://github.com/lane-os/Link-creator
+https://github.com/lane-os/link-creator
